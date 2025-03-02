@@ -72,7 +72,7 @@ library.lendBook = function (borrowerId, isbn) {       // lend a book function
         book.updateCopies(-1);
         borrower.borrowBook(book.title);      // add title to borrowed books 
     }
-};
+}
 
 library.lendBook(201, 123456);
 console.log(book1.getDetails());
