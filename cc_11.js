@@ -56,7 +56,7 @@ class Library {
     listBooks() {
         this.books.forEach(book => console.log(book.getDetails()));
     }
-}
+};
 
 const library = new Library();
 library.addBook(book1);
