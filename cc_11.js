@@ -36,7 +36,7 @@ class Borrower {                 // creating a class called borrower
     returnBook(bookTitle) {            // how to return the book from borrowing 
         this.borrowedBooks = this.borrowedBooks.filter(title => title !== bookTitle);           // remove the book title 
     }
-}
+};
 
 const borrower1 = new Borrower("Alice Johnson", 201);
 borrower1.borrowBook("The Great Gatsby");
