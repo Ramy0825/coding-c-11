@@ -87,7 +87,8 @@ library.returnBook = function (borrowerId, isbn) {       // find book by unique 
         book.updateCopies(1);
         borrower.returnBook(book.title);
     }
-};
+}
+;
 
 library.returnBook(201, 123456);
 console.log(book1.getDetails());
